@@ -118,4 +118,8 @@ i {
     .input-field > input {
         font-size: 1.3rem;
     }
+
+    .age-display {
+        font-size: 2.5rem;
+    }
 }
