@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <script src="https://kit.fontawesome.com/0d7cd5b049.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+</head>
+<body>
+
+  <div class="container">
+
+    <form action="_blank">
+
+      <div class="input-field day-field">
+          <label for="day">DAY</label>
+          <input type="text" name="day" id="day" placeholder="DD">
+      </div>
+
+      <div class="input-field month-field">
+          <label for="month">MONTH</label>
+          <input type="text" name="month" id="month" placeholder="MM">
+      </div>
+
+      <div class="input-field year-field">
+          <label for="year">YEAR</label>
+          <input type="text" name="year" id="year" placeholder="YYYY">
+      </div>
+
+    </form>
+
+    <div class="age-button-section">
+
+      <div class="line"></div>
+      <button onclick="handleClick()"><i class="fa-solid fa-arrow-down-long"></i></button>
+
+    </div>
+
+    <div class="age-display">
+      <p><span id="years-age">--</span> years</p>
+      <p><span id="months-age">--</span> months</p>
+      <p><span id="days-age">--</span> days</p>
+    </div>
+  </div>
+
+  <script src="./scripts/script.js"></script>
+</body>
+</html>
